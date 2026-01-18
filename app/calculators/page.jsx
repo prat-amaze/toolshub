@@ -5,7 +5,7 @@ export const metadata = {
   description: "All calculators like SIP, EMI, GST, Percentage, CGPA and more.",
 };
 
-const calculators = [
+export const calculators = [
   { name: "EMI Calculator", slug: "emi-calculator" },
   { name: "SIP Calculator", slug: "sip-calculator" },
   { name: "GST Calculator", slug: "gst-calculator" },
