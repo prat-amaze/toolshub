@@ -3,12 +3,13 @@ import Link from "next/link";
 export const metadata= {
   title: "ToolsHub | All Tools in One Place",
   description:
-    "ToolsHub provides calculators like SIP, BMI, Age Calculator, ATS score checker, PDF tools and more.",
+    "ToolsHub provides tools like Calculators(SIP, BMI, Income tax etc), ATS score checker, PDF tools and many more useful tools.",
 };
 
 const Page = () => {
   const tools = [
     { name: "Calculators", href: "/calculators" },
+    { name: "Prompt Engineer", href: "https://prompt-engineer-navy-nu.vercel.app/" },
     { name: "ATS Score", href: "/ats-score" },
     { name: "PDF Tools", href: "/pdf-tools" },
     { name: "Movie Reviews", href: "https://prat-amaze.github.io/movieSearch-App/" },
